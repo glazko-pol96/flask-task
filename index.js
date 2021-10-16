@@ -1,7 +1,7 @@
 const express = require('express');
 const expressHbrs = require('express-handlebars');
 const routes = require('./routes/routes');
-const PORT = 4000
+const PORT = 80
 
 const app = express()
 const hbs = expressHbrs.create({
