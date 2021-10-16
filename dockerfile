@@ -1,8 +1,8 @@
 FROM node
 
-WORKDIR /node-app
+WORKDIR /flask-task
 
-COPY package.json /node-app
+COPY package.json /flask-task
 
 RUN npm install
 
